@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+          <title>Kick Out Cancer</title>
+          <link href="site.css" type="text/css" rel="stylesheet" />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+          <!-- Thank you Google -->
+          <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    </head>
+    <body>
+
+      <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-7 col-md-7">
+                <h4 align="left" class="kick-out-title">Kick Out Cancer</h4>
+              </div>
+              <div class="col-lg-5 col-md-5">
+                <h4 align="left" class="title"></h4>
+              </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-7 col-md-7">
+                  <h5 class="top-cancer-label">Total Incidents by State</h5>
+                  <svg class="map" width="600" height="300"></svg>
+                      <div class="timeRangeSlider"></div>
+                        <text id = 'sliderYearsText'>1999 to 2013</text>
+                </div>
+                <div class="col-lg-3 col-md-3 col-mainpage">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-6 col-mainpage">
+                       <div id = 'legendDiv'></div>
+                   </div>
+                      <div class="col-lg-6 col-md-6 col-mainpage">
+                      <svg class="pieChart" width="250" height="250"></svg>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-mainpage">
+                        <svg class="lineGraph"  width="500" height="300"></svg>
+                    </div>
+
+                  </div>
+
+
+
+                </div>
+
+          </div>
+      </div>
+      <div class="container-fluid">
+          <div class="row">
+            <h5 align="center" class="specificTitle">Click on a point on the line graph for more information</h5>
+            <div class="col-xs-4">
+              <h6>Age Group Statistics</h6>
+              <svg class="ageGroupGraph" width="300" height="350"></svg>
+            </div>
+            <div class="col-xs-4">
+              <h6>Race Statistics</h6>
+              <svg class="raceGraph" width="300" height="350"></svg>
+            </div>
+            <div class="col-xs-4">
+              <h6>Sex Statistics</h6>
+              <svg class="sexGraph" width="300" height="350"></svg>
+            </div>
+          </div>
+      </div>
+
+
+      <script src = 'd3/limitslider-master/jquery.limitslider.js'></script>
+      <script type="text/javascript" src="d3/d3.js"></script>
+          <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+          <script src="https://d3js.org/topojson.v2.min.js"></script>
+            <script src="site.js"></script>
+
+      <script>
+    //only put jquery stuff in here please.
+
+      //Slider
+
+
+    </script>
+
+    </body>
+
+</html>

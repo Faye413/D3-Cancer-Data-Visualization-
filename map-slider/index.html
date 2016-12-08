@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="http://bricbracs.com/hh/source/d3.min.js"></script>
+  <script src="http://bricbracs.com/hh/source/colorbrewer.js"></script>
+  <script src="http://bricbracs.com/hh/noUiSlider/distribute/nouislider.js"></script>
+  <script src="http://bricbracs.com/hh/noUiSlider/documentation/assets/wNumb.js"></script>
+  <link href="http://bricbracs.com/hh/noUiSlider/documentation/assets/base.css" rel="stylesheet">
+  <link href="http://bricbracs.com/hh/noUiSlider/documentation/assets/prism.css" rel="stylesheet">
+  <link href="http://bricbracs.com/hh/noUiSlider/distribute/nouislider.min.css" rel="stylesheet">
+  <script src="https://d3js.org/d3-color.v1.min.js"></script>
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+  <style>
+    svg {
+      width: 800px;
+      height: 600px;
+    }
+    
+    .caption {
+      font-weight: bold;
+    }
+    
+    .key path {
+      display: none;
+    }
+    
+    .key line {
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .legend {
+      font-size: 10px;
+    }
+    
+    #slider {
+      width: 350px;
+      left: 128px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <br>
+  <div id="us-map"></div>
+  <br>
+  <br>
+  <div id='slider'> </div>
+  <script>
+    var w = 800;
+    var h = 600;
+    var yr = 2012
+    var hx = 0
+    var dataState
+    var dataValue
+    var jsonState
+    var data1 = []
+    var datax = []
+    var jsonx = []
+
+    var svg = d3.select("#us-map")
+      .append('svg')
+      .attr('w', w + 'px')
+      .attr('h', h + 'px');
+
+    var projection = d3.geo.albersUsa()
+      .translate([w / 2, h / 2])
+      .scale(1000)
+
+    var path = d3.geo.path().projection(projection);
+    var color = d3.scale.quantize()
+      .range(d3.schemeReds[9]);
+
+    d3.csv("state_incidents.csv", function(data) {
+      data1 = data
+      data = data.filter(function(d) {
+        return d.year == yr
+      });
+      console.log("year:" + yr)
+
+      data.forEach(function(d) {
+        d.value = +d.value;
+      });
+      color.domain([
+        d3.min(data, function(d) {
+          return d.value;
+        }),
+        d3.max(data, function(d) {
+          return d.value
+        })
+      ]);
+
+      d3.json("us-states.json", function(json) {
+        jsonx = json
+
+        for (var i = 0; i < data.length; i++) {
+          dataState = data[i].state;
+          dataValue = parseFloat(data[i].value);
+
+          for (var j = 0; j < json.features.length; j++) {
+            jsonState = json.features[j].properties.name;
+            if (dataState == jsonState) {
+              json.features[j].properties.value = dataValue;
+              break;
+            }
+          }
+        }
+
+        svg.selectAll("path")
+          .data(json.features)
+          .enter()
+          .append("path")
+          .attr("d", path)
+          .style("stroke", "#ccc")
+          .attr("class", function(d){return d.properties.name})
+          .style("fill", function(d) {
+            var value = d.properties.value;
+            if (value) {
+              return color(value);
+             } 
+            else {
+              return "grey";
+             }
+          })
+
+      })
+    });
+
+
+
+    function update() {
+      hx = 1
+      datax = data1
+      datax = datax.filter(function(d) {
+        return d.year == yr
+      });
+
+      datax.forEach(function(d) {
+        d.value = +d.value;
+      });
+      
+      color.domain([
+        d3.min(datax, function(d) {
+          return d.value;
+        }),
+        d3.max(datax, function(d) {
+          return d.value
+        })
+      ]);
+      for (var j = 0; j < jsonx.features.length; j++) {
+        jsonx.features[j].properties.value = undefined;
+      }
+      for (var i = 0; i < datax.length; i++) {
+        dataState = datax[i].state;
+        dataValue = (datax[i].value);
+        for (var j = 0; j < jsonx.features.length; j++) {
+          jsonState = jsonx.features[j].properties.name;
+          if (dataState == jsonState) {
+            jsonx.features[j].properties.value = dataValue;
+            break;
+          }
+        }
+      }
+      svg.selectAll("path")
+
+      .attr("d", path)
+        .style("fill", function(d) {
+          var value = d.properties.value;
+          if (value) {
+            return color(value);
+          } 
+           else {
+            console.log("no")
+             return "grey";
+           }
+
+        })
+    }
+
+
+    ////////////////////////////////
+
+
+    var tooltipSlider = document.getElementById('slider');
+    noUiSlider.create(tooltipSlider, {
+      start: [1999],
+      range: {
+        'min': 1999,
+        '30%': 40,
+        'max': 2013
+      }
+    });
+
+    var tipHandles = tooltipSlider.getElementsByClassName('noUi-handle'),
+      tooltips = [];
+    for (var i = 0; i < tipHandles.length; i++) {
+      tooltips[i] = document.createElement('div');
+      tipHandles[i].appendChild(tooltips[i]);
+    }
+
+    tooltips[0].className += 'tooltip';
+    tooltips[0].innerHTML = '<strong>Value: </strong><span></span>';
+    tooltipSlider.noUiSlider.on('update', function(values, handle) {
+      tooltips[handle].innerHTML = Math.floor(values[handle]);
+      var g = Math.floor(values[handle]);
+
+      if (g == "1999") {
+        yr = "1999"
+        update()
+      }
+      if (g == "2000") {
+        yr = "2000"
+        update()
+      }
+      if (g == "2001") {
+        yr = "2001"
+        update()
+      }
+      if (g == "2002") {
+        yr = "2002"
+        update()
+      }
+      if (g == "2003") {
+        yr = "2003"
+          update()
+      }
+      if (g == "2004") {
+        yr = "2004"
+        update()
+      }
+      if (g == "2005") {
+        yr = "2005"
+        update()
+      }
+      if (g == "2006") {
+        yr = "2006"
+        update()
+      }
+      if (g == "2007") {
+        yr = "2007"
+        update()
+      }
+      if (g == "2008") {
+        yr = "2008"
+        update()
+      }
+      if (g == "2009") {
+        yr = "2009"
+        update()
+      }
+      if (g == "2010") {
+        yr = "2010"
+        update()
+      }
+      if (g == "2011") {
+        yr = "2011"
+        update()
+      }
+      if (g == "2012") {
+        yr = "2012"
+        update()
+      }
+      if (g == "2013") {
+        yr = "2013"
+        update()
+      }
+
+    });
+  </script>
+
+
+</body>
+
+</html>

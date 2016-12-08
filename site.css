@@ -1,0 +1,95 @@
+
+svg {
+    /*background-color: #cfcfcf;*/
+}
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+p {
+    font-size: 8px;
+}
+.tooltip {
+
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.tick line{
+    visibility:hidden;
+}
+
+.tick {
+    text-align: right;
+}
+
+#legendDiv{
+    overflow: scroll; 
+    height: 300px;
+}
+#legendDiv text{
+    font-size: 10px;
+}
+.lineGraph rect {
+fill: #ffffff;
+}
+
+.lineGraph text {
+font: 10px sans-serif;
+text-anchor: middle;
+}
+.lineGraph text.linelabel, .pieChart text.pielabel
+{
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.pieChart {
+
+}
+
+.pieChart rect {
+fill: #ffffff;
+}
+
+.pieChart text {
+font: 10px sans-serif;
+text-anchor: middle;
+}
+
+text.xText{
+fill: black;
+font: 10px sans-serif;
+text-anchor: middle;
+}
+
+text {
+    word-wrap: break-word;
+}
+
+.col-mainpage
+{
+    padding:0;   
+}
+
+.kick-out-title {
+    font-weight: bold;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke-linejoin: round;
+}
+
+.top-cancer-label {
+    margin-top: 10%;
+}

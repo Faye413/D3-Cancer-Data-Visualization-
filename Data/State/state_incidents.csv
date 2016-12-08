@@ -1,0 +1,751 @@
+year,state,value
+1999,Alabama,200
+1999,Alaska,420
+1999,Arizona,340
+1999,Arkansas,600
+1999,California,720
+1999,Colorado,430
+1999,Connecticut,290
+1999,Delaware,630
+1999,Florida,720
+1999,Georgia,600
+1999,Hawaii,800
+1999,Idaho,740
+1999,Illinois,620
+1999,Indiana,758
+1999,Iowa,870
+1999,Kansas,638
+1999,Kentucky,826
+1999,Louisiana,252
+1999,Maine,474
+1999,Maryland,338
+1999,Massachusetts,635
+1999,Michigan,737
+1999,Minnesota,483
+1999,Mississippi,484
+1999,Missouri,726
+1999,Montana,737
+1999,Nebraska,636
+1999,Nevada,737
+1999,New Hampshire,737
+1999,New Jersey,520
+1999,New Mexico,262
+1999,New York,373
+1999,North Carolina,334
+1999,North Dakota,438
+1999,Ohio,828
+1999,Oklahoma,882
+1999,Oregon,434
+1999,Pennsylvania,484
+1999,Rhode Island,339
+1999,South Carolina,338
+1999,South Dakota,282
+1999,Tennessee,353
+1999,Texas,663
+1999,Utah,662
+1999,Vermont,474
+1999,Virginia,373
+1999,Washington,373
+1999,West Virginia,434
+1999,Wisconsin,534
+1999,Wyoming,636
+2000,Alabama,638
+2000,Alaska,747
+2000,Arizona,638
+2000,Arkansas,449
+2000,California,282
+2000,Colorado,736
+2000,Connecticut,383
+2000,Delaware,226
+2000,Florida,263
+2000,Georgia,653
+2000,Hawaii,536
+2000,Idaho,636
+2000,Illinois,627
+2000,Indiana,283
+2000,Iowa,837
+2000,Kansas,772
+2000,Kentucky,626
+2000,Louisiana,526
+2000,Maine,535
+2000,Maryland,525
+2000,Massachusetts,252
+2000,Michigan,262
+2000,Minnesota,363
+2000,Mississippi,626
+2000,Missouri,635
+2000,Montana,273
+2000,Nebraska,737
+2000,Nevada,736
+2000,New Hampshire,636
+2000,New Jersey,626
+2000,New Mexico,373
+2000,New York,626
+2000,North Carolina,635
+2000,North Dakota,525
+2000,Ohio,626
+2000,Oklahoma,726
+2000,Oregon,727
+2000,Pennsylvania,538
+2000,Rhode Island,383
+2000,South Carolina,736
+2000,South Dakota,382
+2000,Tennessee,472
+2000,Texas,626
+2000,Utah,727
+2000,Vermont,228
+2000,Virginia,283
+2000,Washington,747
+2000,West Virginia,272
+2000,Wisconsin,838
+2000,Wyoming,828
+2001,Alabama,464
+2001,Alaska,746
+2001,Arizona,363
+2001,Arkansas,637
+2001,California,337
+2001,Colorado,584
+2001,Connecticut,744
+2001,Delaware,345
+2001,Florida,636
+2001,Georgia,737
+2001,Hawaii,337
+2001,Idaho,373
+2001,Illinois,474,
+2001,Indiana,634
+2001,Iowa,737
+2001,Kansas,623
+2001,Kentucky,646
+2001,Louisiana,383
+2001,Maine,637
+2001,Maryland,737
+2001,Massachusetts,473
+2001,Michigan,346
+2001,Minnesota,626
+2001,Mississippi,363
+2001,Missouri,737
+2001,Montana,748
+2001,Nebraska,535
+2001,Nevada,747
+2001,New Hampshire,636
+2001,New Jersey,633
+2001,New Mexico,535
+2001,New York,636
+2001,North Carolina,623
+2001,North Dakota,364
+2001,Ohio,633
+2001,Oklahoma,436
+2001,Oregon,344
+2001,Pennsylvania,474
+2001,Rhode Island,374
+2001,South Carolina,357
+2001,South Dakota,235
+2001,Tennessee,535
+2001,Texas,636
+2001,Utah,377
+2001,Vermont,636
+2001,Virginia,364
+2001,Washington,635
+2001,West Virginia,463
+2001,Wisconsin,737
+2001,Wyoming,563
+2002,Alabama,748
+2002,Alaska,237
+2002,Arizona,643
+2002,Arkansas,484
+2002,California,673
+2002,Colorado,345
+2002,Connecticut,646
+2002,Delaware,548
+2002,Florida,647
+2002,Georgia,843
+2002,Hawaii,549
+2002,Idaho,637
+2002,Illinois,673
+2002,Indiana,538
+2002,Iowa,736
+2002,Kansas,373
+2002,Kentucky,637
+2002,Louisiana,546
+2002,Maine,463
+2002,Maryland,357
+2002,Massachusetts,458
+2002,Michigan,657
+2002,Minnesota,454
+2002,Mississippi,567
+2002,Missouri,654
+2002,Montana,674
+2002,Nebraska,457
+2002,Nevada,656
+2002,New Hampshire,656
+2002,New Jersey,756
+2002,New Mexico,865
+2002,New York,567
+2002,North Carolina,677
+2002,North Dakota,565
+2002,Ohio,567
+2002,Oklahoma,755
+2002,Oregon,568
+2002,Pennsylvania,755
+2002,Rhode Island,568
+2002,South Carolina,568
+2002,South Dakota,567
+2002,Tennessee,756
+2002,Texas,685
+2002,Utah,857
+2002,Vermont,685
+2002,Virginia,678
+2002,Washington,756
+2002,West Virginia,656
+2002,Wisconsin,458
+2002,Wyoming,568
+2003,Alabama,636
+2003,Alaska,348
+2003,Arizona,347
+2003,Arkansas,537
+2003,California,574
+2003,Colorado,474
+2003,Connecticut,737
+2003,Delaware,353
+2003,Florida,636
+2003,Georgia,374
+2003,Hawaii,575
+2003,Idaho,378
+2003,Illinois,557
+2003,Indiana,684
+2003,Iowa,636
+2003,Kansas,363
+2003,Kentucky,737
+2003,Louisiana,763
+2003,Maine,577
+2003,Maryland,586
+2003,Massachusetts,564
+2003,Michigan,646
+2003,Minnesota,338
+2003,Mississippi,733
+2003,Missouri,638
+2003,Montana,737
+2003,Nebraska,753
+2003,Nevada,765
+2003,New Hampshire,756
+2003,New Jersey,564
+2003,New Mexico,745
+2003,New York,546
+2003,North Carolina,564
+2003,North Dakota,454
+2003,Ohio,654
+2003,Oklahoma,345
+2003,Oregon,564
+2003,Pennsylvania,456
+2003,Rhode Island,654
+2003,South Carolina,567
+2003,South Dakota,453
+2003,Tennessee,346
+2003,Texas,564
+2003,Utah,456
+2003,Vermont,645
+2003,Virginia,675
+2003,Washington,577
+2003,West Virginia,546
+2003,Wisconsin,654
+2003,Wyoming,566
+2004,Alabama,646
+2004,Alaska,567
+2004,Arizona,776
+2004,Arkansas,674
+2004,California,574
+2004,Colorado,745
+2004,Connecticut,577
+2004,Delaware,685
+2004,Florida,685
+2004,Georgia,456
+2004,Hawaii,346
+2004,Idaho,785
+2004,Illinois,456
+2004,Indiana,346
+2004,Iowa,545
+2004,Kansas,457
+2004,Kentucky,457
+2004,Louisiana,346
+2004,Maine,467
+2004,Maryland,643
+2004,Massachusetts,346
+2004,Michigan,757
+2004,Minnesota,644
+2004,Mississippi,578
+2004,Missouri,578
+2004,Montana,678
+2004,Nebraska,457
+2004,Nevada,676
+2004,New Hampshire,567
+2004,New Jersey,568
+2004,New Mexico,568
+2004,New York,456
+2004,North Carolina,457
+2004,North Dakota,568
+2004,Ohio,688
+2004,Oklahoma,565
+2004,Oregon,568
+2004,Pennsylvania,346
+2004,Rhode Island,457
+2004,South Carolina,856
+2004,South Dakota,568
+2004,Tennessee,537
+2004,Texas,679
+2004,Utah,568
+2004,Vermont,567
+2004,Virginia,567
+2004,Washington,793
+2004,West Virginia,477
+2004,Wisconsin,456
+2004,Wyoming,769
+2005,Alabama,546
+2005,Alaska,654
+2005,Arizona,563
+2005,Arkansas,453
+2005,California,346
+2005,Colorado,564
+2005,Connecticut,457
+2005,Delaware,567
+2005,Florida,567
+2005,Georgia,768
+2005,Hawaii,457
+2005,Idaho,688
+2005,Illinois,578
+2005,Indiana,577
+2005,Iowa,658
+2005,Kansas,457
+2005,Kentucky,658
+2005,Louisiana,547
+2005,Maine,456
+2005,Maryland,345
+2005,Massachusetts,577
+2005,Michigan,568
+2005,Minnesota,345
+2005,Mississippi,347
+2005,Missouri,678
+2005,Montana,684
+2005,Nebraska,467
+2005,Nevada,457
+2005,New Hampshire,345
+2005,New Jersey,457
+2005,New Mexico,688
+2005,New York,456
+2005,North Carolina,435
+2005,North Dakota,568
+2005,Ohio,657
+2005,Oklahoma,346
+2005,Oregon,457
+2005,Pennsylvania,457
+2005,Rhode Island,675
+2005,South Carolina,456
+2005,South Dakota,456
+2005,Tennessee,457
+2005,Texas,678
+2005,Utah,567
+2005,Vermont,456
+2005,Virginia,456
+2005,Washington,768
+2005,West Virginia,457
+2005,Wisconsin,457
+2005,Wyoming,678
+2006,Alabama,567
+2006,Alaska,567
+2006,Arizona,678
+2006,Arkansas,675
+2006,California,657
+2006,Colorado,578
+2006,Connecticut,678
+2006,Delaware,679
+2006,Florida,799
+2006,Georgia,677
+2006,Hawaii,675
+2006,Idaho,457
+2006,Illinois,769
+2006,Indiana,574
+2006,Iowa,568
+2006,Kansas,768
+2006,Kentucky,567
+2006,Louisiana,658
+2006,Maine,674
+2006,Maryland,675
+2006,Massachusetts,758
+2006,Michigan,799
+2006,Minnesota,679
+2006,Mississippi,578
+2006,Missouri,695
+2006,Montana,568
+2006,Nebraska,679
+2006,Nevada,568
+2006,New Hampshire,567
+2006,New Jersey,796
+2006,New Mexico,568
+2006,New York,568
+2006,North Carolina,457
+2006,North Dakota,658
+2006,Ohio,478
+2006,Oklahoma,679
+2006,Oregon,568
+2006,Pennsylvania,467
+2006,Rhode Island,457
+2006,South Carolina,568
+2006,South Dakota,457
+2006,Tennessee,457
+2006,Texas,346
+2006,Utah,457
+2006,Vermont,856
+2006,Virginia,568
+2006,Washington,477
+2006,West Virginia,453
+2006,Wisconsin,578
+2006,Wyoming,547
+2007,Alabama,564
+2007,Alaska,577
+2007,Arizona,678
+2007,Arkansas,456
+2007,California,757
+2007,Colorado,567
+2007,Connecticut,547
+2007,Delaware,685
+2007,Florida,456
+2007,Georgia,687
+2007,Hawaii,457
+2007,Idaho,567
+2007,Illinois,567
+2007,Indiana,678
+2007,Iowa,756
+2007,Kansas,868
+2007,Kentucky,689
+2007,Louisiana,878
+2007,Maine,657
+2007,Maryland,788
+2007,Massachusetts,567
+2007,Michigan,866
+2007,Minnesota,657
+2007,Mississippi,759
+2007,Missouri,757
+2007,Montana,456
+2007,Nebraska,686
+2007,Nevada,758
+2007,New Hampshire,657
+2007,New Jersey,786
+2007,New Mexico,658
+2007,New York,678
+2007,North Carolina,755
+2007,North Dakota,865
+2007,Ohio,854
+2007,Oklahoma,686
+2007,Oregon,685
+2007,Pennsylvania,857
+2007,Rhode Island,574
+2007,South Carolina,754
+2007,South Dakota,874
+2007,Tennessee,675
+2007,Texas,755
+2007,Utah,577
+2007,Vermont,765
+2007,Virginia,754
+2007,Washington,567
+2007,West Virginia,756
+2007,Wisconsin,654
+2007,Wyoming,685
+2008,Alabama,547
+2008,Alaska,675
+2008,Arizona,685
+2008,Arkansas,754
+2008,California,565
+2008,Colorado,685
+2008,Connecticut,657
+2008,Delaware,775
+2008,Florida,785
+2008,Georgia,754
+2008,Hawaii,855
+2008,Idaho,685
+2008,Illinois,866
+2008,Indiana,685
+2008,Iowa,577
+2008,Kansas,755
+2008,Kentucky,585
+2008,Louisiana,696
+2008,Maine,587
+2008,Maryland,789
+2008,Massachusetts,678
+2008,Michigan,757
+2008,Minnesota,748
+2008,Mississippi,686
+2008,Missouri,785
+2008,Montana,786
+2008,Nebraska,568
+2008,Nevada,786
+2008,New Hampshire,685
+2008,New Jersey,855
+2008,New Mexico,768
+2008,New York,678
+2008,North Carolina,754
+2008,North Dakota,757
+2008,Ohio,457
+2008,Oklahoma,585
+2008,Oregon,745
+2008,Pennsylvania,856
+2008,Rhode Island,657
+2008,South Carolina,856
+2008,South Dakota,856
+2008,Tennessee,865
+2008,Texas,865
+2008,Utah,585
+2008,Vermont,856
+2008,Virginia,855
+2008,Washington,457
+2008,West Virginia,678
+2008,Wisconsin,567
+2008,Wyoming,685
+2009,Alabama,577
+2009,Alaska,785
+2009,Arizona,856
+2009,Arkansas,585
+2009,California,756
+2009,Colorado,745
+2009,Connecticut,745
+2009,Delaware,657
+2009,Florida,546
+2009,Georgia,567
+2009,Hawaii,646
+2009,Idaho,745
+2009,Illinois,456
+2009,Indiana,754
+2009,Iowa,676
+2009,Kansas,437
+2009,Kentucky,645
+2009,Louisiana,754
+2009,Maine,575
+2009,Maryland,856
+2009,Massachusetts,754
+2009,Michigan,756
+2009,Minnesota,754
+2009,Mississippi,674
+2009,Missouri,678
+2009,Montana,753
+2009,Nebraska,856
+2009,Nevada,456
+2009,New Hampshire,745
+2009,New Jersey,675
+2009,New Mexico,456
+2009,New York,675
+2009,North Carolina,564
+2009,North Dakota,678
+2009,Ohio,754
+2009,Oklahoma,645
+2009,Oregon,755
+2009,Pennsylvania,643
+2009,Rhode Island,675
+2009,South Carolina,574
+2009,South Dakota,743
+2009,Tennessee,574
+2009,Texas,856
+2009,Utah,685
+2009,Vermont,588
+2009,Virginia,567
+2009,Washington,789
+2009,West Virginia,567
+2009,Wisconsin,565
+2009,Wyoming,675
+2010,Alabama,745
+2010,Alaska,855
+2010,Arizona,754
+2010,Arkansas,674
+2010,California,745
+2010,Colorado,757
+2010,Connecticut,456
+2010,Delaware,756
+2010,Florida,657
+2010,Georgia,564
+2010,Hawaii,567
+2010,Idaho,756
+2010,Illinois,686
+2010,Indiana,567
+2010,Iowa,657
+2010,Kansas,657
+2010,Kentucky,456
+2010,Louisiana,688
+2010,Maine,574
+2010,Maryland,767
+2010,Massachusetts,675
+2010,Michigan,755
+2010,Minnesota,675
+2010,Mississippi,564
+2010,Missouri,657
+2010,Montana,575
+2010,Nebraska,575
+2010,Nevada,786
+2010,New Hampshire,564
+2010,New Jersey,574
+2010,New Mexico,467
+2010,New York,786
+2010,North Carolina,645
+2010,North Dakota,567
+2010,Ohio,756
+2010,Oklahoma,856
+2010,Oregon,657
+2010,Pennsylvania,646
+2010,Rhode Island,457
+2010,South Carolina,567
+2010,South Dakota,568
+2010,Tennessee,346
+2010,Texas,678
+2010,Utah,453
+2010,Vermont,545
+2010,Virginia,754
+2010,Washington,643
+2010,West Virginia,754
+2010,Wisconsin,745
+2010,Wyoming,663
+2011,Alabama,534
+2011,Alaska,746
+2011,Arizona,567
+2011,Arkansas,467
+2011,California,745
+2011,Colorado,745
+2011,Connecticut,453
+2011,Delaware,753
+2011,Florida,743
+2011,Georgia,457
+2011,Hawaii,754
+2011,Idaho,643
+2011,Illinois,745
+2011,Indiana,346
+2011,Iowa,754
+2011,Kansas,567
+2011,Kentucky,457
+2011,Louisiana,557
+2011,Maine,655
+2011,Maryland,646
+2011,Massachusetts,346
+2011,Michigan,765
+2011,Minnesota,567
+2011,Mississippi,567
+2011,Missouri,787
+2011,Montana,678
+2011,Nebraska,756
+2011,Nevada,786
+2011,New Hampshire,567
+2011,New Jersey,568
+2011,New Mexico,789
+2011,New York,567
+2011,North Carolina,876
+2011,North Dakota,654
+2011,Ohio,756
+2011,Oklahoma,755
+2011,Oregon,783
+2011,Pennsylvania,756
+2011,Rhode Island,753
+2011,South Carolina,763
+2011,South Dakota,575
+2011,Tennessee,647
+2011,Texas,856
+2011,Utah,743
+2011,Vermont,576
+2011,Virginia,544
+2011,Washington,745
+2011,West Virginia,645
+2011,Wisconsin,766
+2011,Wyoming,766
+2012,Alabama,746
+2012,Alaska,657
+2012,Arizona,676
+2012,Arkansas,768
+2012,California,657
+2012,Colorado,768
+2012,Connecticut,577
+2012,Delaware,678
+2012,Florida,674
+2012,Georgia,657
+2012,Hawaii,675
+2012,Idaho,864
+2012,Illinois,745
+2012,Indiana,478
+2012,Iowa,865
+2012,Kansas,856
+2012,Kentucky,756
+2012,Louisiana,755
+2012,Maine,588
+2012,Maryland,766
+2012,Massachusetts,456
+2012,Michigan,568
+2012,Minnesota,678
+2012,Mississippi,679
+2012,Missouri,676
+2012,Montana,647
+2012,Nebraska,876
+2012,Nevada,678
+2012,New Hampshire,576
+2012,New Jersey,565
+2012,New Mexico,785
+2012,New York,584
+2012,North Carolina,857
+2012,North Dakota,574
+2012,Ohio,767
+2012,Oklahoma,757
+2012,Oregon,687
+2012,Pennsylvania,565
+2012,Rhode Island,865
+2012,South Carolina,575
+2012,South Dakota,857
+2012,Tennessee,864
+2012,Texas,857
+2012,Utah,578
+2012,Vermont,856
+2012,Virginia,765
+2012,Washington,566
+2012,West Virginia,685
+2012,Wisconsin,786
+2012,Wyoming,647
+2013,Alabama,675
+2013,Alaska,655
+2013,Arizona,657
+2013,Arkansas,765
+2013,California,753
+2013,Colorado,755
+2013,Connecticut,765
+2013,Delaware,876
+2013,Florida,567
+2013,Georgia,869
+2013,Hawaii,665
+2013,Idaho,866
+2013,Illinois,765
+2013,Indiana,865
+2013,Iowa,856
+2013,Kansas,865
+2013,Kentucky,565
+2013,Louisiana,765
+2013,Maine,467
+2013,Maryland,876
+2013,Massachusetts,866
+2013,Michigan,866
+2013,Minnesota,977
+2013,Mississippi,757
+2013,Missouri,856
+2013,Montana,865
+2013,Nebraska,856
+2013,Nevada,677
+2013,New Hampshire,876
+2013,New Jersey,766
+2013,New Mexico,865
+2013,New York,865
+2013,North Carolina,875
+2013,North Dakota,856
+2013,Ohio,765
+2013,Oklahoma,976
+2013,Oregon,567
+2013,Pennsylvania,865
+2013,Rhode Island,865
+2013,South Carolina,564
+2013,South Dakota,754
+2013,Tennessee,675
+2013,Texas,567
+2013,Utah,568
+2013,Vermont,768
+2013,Virginia,678
+2013,Washington,696
+2013,West Virginia,755
+2013,Wisconsin,865
+2013,Wyoming,865
